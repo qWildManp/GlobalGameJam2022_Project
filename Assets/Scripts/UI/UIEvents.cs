@@ -41,10 +41,14 @@ public class UIEvents : MonoBehaviour
         levelSelectUI.SetActive(false);
         mainMenuUI.SetActive(true);
     }
-
+    public void ClearProgress()
+    {
+        PlayerPrefs.SetInt("level", 1);
+    }
     public void ExitGame()
     {
-    //if UNITY_EDITOR
+        PlayerPrefs.SetInt("levelUI", 0);
+        //if UNITY_EDITOR
         EditorApplication.isPlaying = false;
    //else
         Application.Quit();
