@@ -49,7 +49,7 @@ public class UIEvents : MonoBehaviour
     {
         PlayerPrefs.SetInt("levelUI", 0);
         //if UNITY_EDITOR
-        EditorApplication.isPlaying = false;
+        //EditorApplication.isPlaying = false;
    //else
         Application.Quit();
     }
