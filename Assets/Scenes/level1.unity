@@ -3894,6 +3894,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.9557495, y: 6.9778633}
   m_EdgeRadius: 0
+--- !u!95 &985383886 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1971098356792560566, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
+  m_PrefabInstance: {fileID: 5779195336572339699}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &987151813
 GameObject:
   m_ObjectHideFlags: 0
@@ -6209,6 +6214,11 @@ MonoBehaviour:
   movingObject: {fileID: 1753753541}
   faceTo: {x: 0, y: 0}
   isMonster: 0
+--- !u!95 &1782649045 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7581665549089600151, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
+  m_PrefabInstance: {fileID: 2252675649131293607}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1815437218
 GameObject:
   m_ObjectHideFlags: 0
@@ -6756,6 +6766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6361902302430584856, guid: c7c04ac26e6232c4c9ad7abec59862ab, type: 3}
+      propertyPath: playerStatus
+      value: 
+      objectReference: {fileID: 1753753542}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7c04ac26e6232c4c9ad7abec59862ab, type: 3}
 --- !u!1 &1945838901 stripped
@@ -12561,6 +12575,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7581665549089600146, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 5373351898597436643, guid: 3100bcfc305fd5841a5a6e70581e9375, type: 3}
+    - target: {fileID: 7581665549089600146, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
+      propertyPath: isProjectileMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7581665549089600148, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -12604,6 +12626,14 @@ PrefabInstance:
     - target: {fileID: 7581665549089600148, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581665549089600150, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
+      propertyPath: shootAnimator
+      value: 
+      objectReference: {fileID: 1782649045}
+    - target: {fileID: 7581665549089600150, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
+      propertyPath: warriorAnimator
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7581665549089600239, guid: 640ff089eeb468240abf085e9f5969ca, type: 3}
       propertyPath: m_Name
@@ -12678,6 +12708,14 @@ PrefabInstance:
       propertyPath: monsterColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1971098356792560563, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 5373351898597436643, guid: 3100bcfc305fd5841a5a6e70581e9375, type: 3}
+    - target: {fileID: 1971098356792560563, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
+      propertyPath: isProjectileMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1971098356792560565, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -12721,6 +12759,14 @@ PrefabInstance:
     - target: {fileID: 1971098356792560565, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1971098356792560567, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
+      propertyPath: shootAnimator
+      value: 
+      objectReference: {fileID: 985383886}
+    - target: {fileID: 1971098356792560567, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
+      propertyPath: warriorAnimator
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1971098356792560590, guid: d184ff138e24dd8448e299fc25306fc4, type: 3}
       propertyPath: m_Name
