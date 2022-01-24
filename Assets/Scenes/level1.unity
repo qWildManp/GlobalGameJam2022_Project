@@ -6103,7 +6103,7 @@ MonoBehaviour:
   iceBallPrefab: {fileID: 5373351898597436643, guid: 3d7893f42e13a724d972801571f77a0b, type: 3}
   activeAnimationController: {fileID: 0}
   shield: 0
-  health: 2
+  health: 3
   maxHealth: 3
   onShield: 0
   canAttack: 0
